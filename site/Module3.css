@@ -1,6 +1,59 @@
-body{
-	font-size: 16px;
-	color: #333;
-	background-color: darkred;
+*{
 	font-family: 'jomhuria', sans-serif;
 }
+
+body{
+
+	font-size: 20px;
+	color: #333;
+	background-color: #a0a0a0
+	;
+}
+
+.navbar {
+	background-color: white;
+	height: 70px;
+	position: relative;
+	text-decoration: none;
+	border: 0;
+	border-radius: 0;
+	z-index:  1000;
+}
+.navbar-brand h1{
+	padding-top: 0;
+	margin: 0%;
+	color:  #333;
+	font-size: 2em;
+	position: relative;
+
+}
+.navbar-brand h1:hover{
+	padding-top: 0;
+	margin: 0;
+	color: blue;
+	font-size: 2em;
+}
+.collapse .navbar-collapse {
+	position: relative;
+	margin-left: 50%;
+	background-color: ;
+}
+.dropdown-menu{
+	margin-left: 50%;
+	text-align: center;
+	font-size: 1.3em;
+	background-color:  white;
+}
+.navbar-collapse {
+	background-color:  white;
+	text-align:  center;
+	font-size: 2em;
+}
+h1{
+margin: 2% 40%;
+}
+
+.card{
+	margin: 20px;
+}
+
